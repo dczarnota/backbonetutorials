@@ -307,8 +307,8 @@
 
 <h3>Updating a model</h3>
 
-<p>Now that we have a model that exist on the server we can perform an update using a PUT request.
-We will use the <code>save</code> api call which is intelligent and will send a PUT request instead of a POST request if an <code>id</code> is present(conforming to RESTful conventions)</p>
+<p>Now that we have a model that exists on the server we can perform an update using a PUT request.
+We will use the <code>save</code> api call which is intelligent and will send a PUT request instead of a POST request if an <code>id</code> is present (conforming to RESTful conventions).</p>
 
 <div class="highlight"><pre><code class="javascript">    <span class="c1">// Here we have set the `id` of the model</span>
     <span class="kd">var</span> <span class="nx">user</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">UserModel</span><span class="p">({</span>
@@ -330,7 +330,7 @@ We will use the <code>save</code> api call which is intelligent and will send a 
 
 <h3>Deleting a model</h3>
 
-<p>When a model has an <code>id</code> we know that it exist on the server, so if we wish to remove it from the server we can call <code>destroy</code>.  <code>destroy</code> will fire off a DELETE /user/id (conforming to RESTful conventions).</p>
+<p>When a model has an <code>id</code> we know that it exists on the server, so if we wish to remove it from the server we can call <code>destroy</code>.  <code>destroy</code> will fire off a DELETE /user/id (conforming to RESTful conventions).</p>
 
 <div class="highlight"><pre><code class="javascript">    <span class="c1">// Here we have set the `id` of the model</span>
     <span class="kd">var</span> <span class="nx">user</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">UserModel</span><span class="p">({</span>
